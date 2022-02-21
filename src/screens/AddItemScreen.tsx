@@ -1,5 +1,5 @@
 import { Alert, StyleSheet, View } from "react-native";
-import { ValuableForm } from "../components/valuableForm/ValuableForm";
+import { ValuableForm } from "../components/valuableForm";
 
 import Button from "../components/Button";
 import { RootTabScreenProps } from "../navigation/types";
