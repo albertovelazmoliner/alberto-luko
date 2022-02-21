@@ -3,7 +3,7 @@ import { Valuable } from "../domain/index";
 import ValuableContext from "../context/ValuablesContext";
 import { MAX_TOTAL_VALUE, VALUE_EXCEEDED_ERROR } from "../common/constants";
 
-const useValuables = (initialValue?: Valuable[]) => {
+const useValuables = () => {
   const { valuables, setValuables } = useContext(ValuableContext);
 
   function createValuable(
