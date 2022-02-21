@@ -63,7 +63,7 @@ function RootNavigator() {
         options={{ title: "Oops!" }}
       />
       <Stack.Group
-        screenOptions={{ presentation: "modal", headerShown: false }}
+        screenOptions={{ presentation: "containedModal", headerShown: false }}
       >
         <Stack.Screen name="AddItem" component={AddItemScreen} />
       </Stack.Group>

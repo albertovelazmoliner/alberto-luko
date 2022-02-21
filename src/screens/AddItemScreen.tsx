@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 20,
     backgroundColor: colors.background,
-    paddingTop: 10,
+    paddingTop: 40,
   },
   buttonsContainer: {
     width: "100%",
