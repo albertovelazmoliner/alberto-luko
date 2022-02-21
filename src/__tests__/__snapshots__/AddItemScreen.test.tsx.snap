@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test AddItem Screen is rendered properly foo 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#E5E5E5",
+      "flex": 1,
+      "paddingHorizontal": 20,
+      "paddingTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginTop": 16,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 20,
+          "left": 20,
+          "right": 20,
+          "top": 20,
+        }
+      }
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2D50E6",
+            "fontSize": 17,
+          }
+        }
+      >
+        Cancel
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      hitSlop={
+        Object {
+          "bottom": 20,
+          "left": 20,
+          "right": 20,
+          "top": 20,
+        }
+      }
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "opacity": 1,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#C0BEB8",
+            "fontSize": 17,
+          }
+        }
+      >
+        Add
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignContent": "center",
+          "borderColor": "lightgrey",
+          "borderRadius": 100,
+          "borderStyle": "dashed",
+          "borderWidth": 2,
+          "height": 140,
+          "marginBottom": 10,
+          "marginEnd": "auto",
+          "marginStart": "auto",
+          "marginTop": 10,
+          "width": 140,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "column",
+            "height": 140,
+            "justifyContent": "center",
+            "margin": 0,
+            "width": 140,
+          }
+        }
+      >
+        <View>
+          <Text />
+        </View>
+        <Text>
+          Add photo
+        </Text>
+      </View>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "fontFamily": "Circular-Bold",
+            "fontSize": 12,
+            "lineHeight": 24,
+          }
+        }
+      >
+        Name
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "backgroundColor": "white",
+            "borderColor": "lightgrey",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "height": 42,
+            "padding": 8,
+            "width": "100%",
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          clearButtonMode="while-editing"
+          onChangeText={[Function]}
+          placeholder="Bracelet"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "fontSize": 18,
+              "width": "100%",
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "fontFamily": "Circular-Bold",
+            "fontSize": 12,
+            "lineHeight": 24,
+          }
+        }
+      >
+        Value
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "backgroundColor": "white",
+            "borderColor": "lightgrey",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "flexDirection": "row",
+            "height": 42,
+            "padding": 8,
+            "width": "100%",
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          clearButtonMode="never"
+          keyboardType="number-pad"
+          onChangeText={[Function]}
+          placeholder="700"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "fontSize": 18,
+              "width": "100%",
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+        <View>
+          <Text />
+        </View>
+      </View>
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "fontFamily": "Circular-Bold",
+            "fontSize": 12,
+            "lineHeight": 24,
+          }
+        }
+      >
+        Description
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "backgroundColor": "white",
+            "borderColor": "lightgrey",
+            "borderRadius": 8,
+            "borderWidth": 1,
+            "flexDirection": "column",
+            "height": 150,
+            "padding": 8,
+            "width": "100%",
+          }
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          multiline={true}
+          numberOfLines={6}
+          onChangeText={[Function]}
+          placeholder="Optional"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "fontSize": 18,
+              "height": 100,
+              "width": "100%",
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
