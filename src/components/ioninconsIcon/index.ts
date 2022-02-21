@@ -1,0 +1,1 @@
+export { IoninconsIcon } from './IoninconsIcon';
