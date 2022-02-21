@@ -43,8 +43,6 @@ const useValuables = (initialValue?: Valuable[]) => {
         image
       );
       if (checkMaxTotalValue()) {
-        const newState = [...valuables, newValuable];
-
         setValuables((preValuables) => [...preValuables, newValuable]);
       } else {
         throw new Error(VALUE_EXCEEDED_ERROR);
